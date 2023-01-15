@@ -76,19 +76,9 @@
     }
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 500px) {
     :root {
         --h1-font: 3.5rem;
-    }
-
-    .about-image img {
-        max-width: 350px;
-        width: 100%;
-        height: auto;
-    }
-
-    .services-content, .portfolio-content {
-        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     }
 
     .contact-form form {
@@ -98,5 +88,11 @@
 
     #scroll-arrow {
         bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .services-content, .portfolio-content {
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     }
 }
